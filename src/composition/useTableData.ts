@@ -16,7 +16,7 @@ export function useUserTableData(dataItems: User[]) {
         })
     }
 
-    update([...dataItems]);
+    update(dataItems);
 
     return { itemsByParent, update }
 }
